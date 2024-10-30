@@ -1,0 +1,106 @@
+/*  ==========================================================================
+    MISC
+    ========================================================================== */
+        .bsoft_spinner {
+        	width: 18px;
+        	height: 18px;
+        	padding-left: 10px;
+        	display: none;
+        	position: relative;
+        	top: 4px;
+        }
+        #save_done {
+        	color: #D94F00;
+        	font-size: 250%;
+        	display: none;
+        }
+        .bsoft-main-area {
+            display: none;
+            width: 100%!important;
+        }
+        .bsoft-social-list{
+            margin-top: 15px;
+        }
+        #img_preview{
+            margin: 15px 0 0;
+        }
+        #img_preview:focus{
+            outline: none;
+            box-shadow: none;
+        }
+        #img_preview img{
+            max-width: 60px;
+        }
+        .bsoft-esi-shadow{
+            border:1px solid #ebebeb; padding:5px 20px; background:#fff; margin-bottom:40px;
+            -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.1);
+            -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.1);
+            box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.1); 
+        }
+        .bsoft-esi-shadow .bsoft-sec-title{
+            border: 1px solid #ebebeb;
+            background: #fff;
+            color: #d54e21;
+            padding: 2px 4px;
+        }
+
+        /*  Error
+            ========================================================================== */
+                .bsoft-error{
+                    width: 100%;
+                    display: none;
+                    vertical-align: top;
+                    background: #fff;
+                    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+                    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+                    padding: 10px 15px;
+                    border-left: 4px solid #dc3232;
+                    -webkit-box-sizing: border-box;
+                       -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                }
+                .bsoft-error-text{
+                    color: red;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+
+
+/*  ==========================================================================
+    Social Icon List
+    ========================================================================== */
+        .bsoft-icon-wrap{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: inline-block;
+        }
+        .bsoft-icon-wrap li{
+            float: left;
+            max-width: 50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            list-style: none;
+        }
+        .bsoft-icon-wrap li:before,.bsoft-icon-wrap li:after{
+            display: none;
+        }
+        .bsoft-icon-wrap li a{
+            display: inline-block;
+            float: left;
+            border: 0px;
+            box-shadow: none;
+            text-decoration: none;
+            outline: none;
+        }
+        .bsoft-icon-wrap li a:hover,.bsoft-icon-wrap li a:focus,.bsoft-icon-wrap li a:active{
+            border: 0px;
+            box-shadow: none;
+            text-decoration: none;
+            outline: none;
+        }
+        .bsoft-icon-wrap li a img{
+            max-width: 100%;
+            box-shadow: none;
+        }        
